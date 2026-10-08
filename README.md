@@ -74,6 +74,15 @@ data/output/projetos-lattes.csv
 
 Cada execução do ScriptLattes fica preservada em `data/output/run-YYYYMMDD-HHMMSS/`, incluindo `data.config`, `database.xml`, cache e log.
 
+## Origem e créditos
+
+Esta pipeline não é uma implementação original do zero. Ela foi baseada parcialmente no código, na arquitetura e no fluxo dos seguintes repositórios:
+
+1. [pgcomp-dashboard/ScriptLattes](https://github.com/pgcomp-dashboard/ScriptLattes/tree/main);
+2. [pgcomp-dashboard/pgcomp-dashboard](https://github.com/pgcomp-dashboard/pgcomp-dashboard/tree/main).
+
+O código deste repositório adapta esses projetos para um fluxo independente, baseado em uma lista local de professores, sem acesso direto ao banco de dados do dashboard. O desenvolvimento foi realizado em coautoria com GitHub Copilot.
+
 ## Origem dos IDs
 
 A pipeline procura cada nome na página oficial do corpo docente e extrai o ID de 16 dígitos do link Lattes encontrado.
