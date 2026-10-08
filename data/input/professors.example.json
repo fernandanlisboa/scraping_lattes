@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-10-06T12:00:00+00:00",
+  "total_professors": 1,
+  "ready": 1,
+  "missing": 0,
+  "professors": [
+    {
+      "database_id": 42,
+      "name": "Professora Exemplo",
+      "lattes_id": "1234567890123456",
+      "source": "lattes_url",
+      "status": "ready",
+      "reason": null
+    }
+  ]
+}

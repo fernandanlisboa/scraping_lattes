@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/config.py
+src/export_professors.py
+src/export_projects.py
+src/faculty.py
+src/identifiers.py
+src/pipeline.py
+src/run_scriptlattes.py
+src/scraping_lattes.egg-info/PKG-INFO
+src/scraping_lattes.egg-info/SOURCES.txt
+src/scraping_lattes.egg-info/dependency_links.txt
+src/scraping_lattes.egg-info/requires.txt
+src/scraping_lattes.egg-info/top_level.txt
+tests/test_export_projects.py
+tests/test_identifiers.py

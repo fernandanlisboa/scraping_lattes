@@ -1,0 +1,7 @@
+pydantic<3,>=2.7
+pydantic-settings<3,>=2.2
+requests<3,>=2.31
+beautifulsoup4<5,>=4.12
+
+[test]
+pytest<9,>=8

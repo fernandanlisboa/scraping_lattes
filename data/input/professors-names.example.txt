@@ -1,0 +1,3 @@
+# Um professor por linha. A comparação ignora maiúsculas, acentos e espaços extras.
+Nome Completo do Professor
+Outro Professor

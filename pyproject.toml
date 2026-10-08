@@ -1,0 +1,26 @@
+[project]
+authors = [
+  {name = "Fernanda Lisboa", email = "fernandavnlisboa@gmail.com"},
+]
+name = "scraping-lattes"
+version = "0.1.0"
+description = "Pipeline para exportar professores, executar ScriptLattes e gerar CSV de projetos"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.7,<3",
+  "pydantic-settings>=2.2,<3",
+  "requests>=2.31,<3",
+  "beautifulsoup4>=4.12,<5",
+  "tqdm>=4.70.1",
+  "selenium>=4.50.0",
+  "Levenshtein>=0.27.5",
+  "scipy>=1.18.1",
+  "pillow>=12.3.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,2 @@
+database_id;name;lattes_id;source;status;reason
+43;Professor Sem ID;;;missing;Nenhum ID Lattes válido encontrado em lattes_id, lattes_url ou XML.

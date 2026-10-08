@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: scraping-lattes
+Version: 0.1.0
+Summary: Pipeline para exportar professores, executar ScriptLattes e gerar CSV de projetos
+Requires-Python: >=3.11
+Requires-Dist: pydantic<3,>=2.7
+Requires-Dist: pydantic-settings<3,>=2.2
+Requires-Dist: requests<3,>=2.31
+Requires-Dist: beautifulsoup4<5,>=4.12
+Provides-Extra: test
+Requires-Dist: pytest<9,>=8; extra == "test"

@@ -1,0 +1,13 @@
+# Referência humana das configurações usadas pelo .env.
+# Os valores efetivos são carregados pelo Pydantic Settings.
+database_url: null
+faculty_url: https://pgcomp.ufba.br/corpo-docente
+faculty_verify_ssl: false
+dashboard_backend_root: F:/Projetos/Mestrado/pgcomp-dashboard/backend
+scriptlattes_root: F:/Projetos/Mestrado/ScriptLattes/scriptLattes
+scriptlattes_config_template: F:/Projetos/Mestrado/ScriptLattes/scriptLattes/config/data.config
+input_dir: F:/Projetos/Mestrado/scraping lattes/data/input
+output_dir: F:/Projetos/Mestrado/scraping lattes/data/output
+professors_names_file: F:/Projetos/Mestrado/scraping lattes/data/input/professors-names.txt
+professor_ids: []
+professor_categories: []
